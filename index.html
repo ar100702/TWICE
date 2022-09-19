@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TWICE</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+     
+        <link rel="stylesheet" href="style.css">
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Ramaraja&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@800&display=swap" rel="stylesheet">
+
+    </head>
+        <body background="TWICE.jpg"
+            <center>
+                <h3 class="btn btn-info heading">TWICE
+                    <button class="btn btn-info" data-toggle="modal" data-target="#myModal">MEET THE MEMBERS</button>
+                </h3>
+                <br>
+                <br>
+                <h3></h3>
+                <div class="modal fade" id="myModal">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button data-dismiss="modal" class="close">&times;</button>
+                          <h4>MEET THE MEMBERS</h4>
+                        </div>
+                        <div class="modal-body">
+                          <img src="jihyo.png" class="members">
+                          <ol>1. Jihyo</ol>
+                          <div id="jihyo_text">
+                            <br>
+                            <p>
+                              REAL NAME: Park Jihyo
+                            </p>
+                            <br>
+                            <p>
+                             POSITION(S) IN THE GROUP : Main Vocalist, Leader and Lead Dancer
+                            </p>
+                            <br>
+                            <p>
+                              AGE : 25 years, (BIRTHDATE : 1 feb, 1997)
+                            </p>
+                            <br>
+                          </div>
+                          <img src="jungyeon.png" class="members">
+                          <ol>2. Jeongyeon</ol>
+                          <div id="Jeongyeon_text">
+                            <br>
+                            <p>
+                              REAL NAME: Yoo Jeong-yeon
+                            </p>
+                            <br>
+                            <p>
+                             POSITION(S) IN THE GROUP : Lead Vocalist
+                            </p>
+                            <br>
+                            <p>
+                              AGE : 25 years, (BIRTHDATE : 1 nov, 1996)
+                            </p>
+                            <br>
+                          </div>
+                          <img src="Mina.png" class="members">
+                          <ol>3. Mina</ol>
+                          <div id="Mina_text">
+                            <br>
+                            <p>
+                              REAL NAME: Myoui Mina
+                            </p>
+                            <br>
+                            <p>
+                             POSITION(S) IN THE GROUP : Main Dancer and Lead Vocalist
+                            </p>
+                            <br>
+                            <p>
+                              AGE : 25 years, (BIRTHDATE : 24 mar, 1997)
+                            </p>
+                            <br>
+                          </div>
+                          <img src="Momo.png" class="members">
+                          <ol>4. Momo</ol>
+                          <div id="Momo_text">
+                            <br>
+                            <p>
+                              REAL NAME: Hirai Momo
+                            </p>
+                            <br>
+                            <p>
+                             POSITION(S) IN THE GROUP : Main Dancer, Lead Vocalist and Lead Rapper
+                            </p>
+                            <br>
+                            <p>
+                              AGE : 25 years, (BIRTHDATE : 9 nov, 1996)
+                            </p>
+                            <br>
+                          </div>
+                          <img src="Nayeon.png" class="members">
+                          <ol>5. Nayeon</ol>
+                          <div id="Nayeon_text">
+                            <br>
+                            <p>
+                              REAL NAME:  Im Na Yeon
+                            </p>
+                            <br>
+                            <p>
+                             POSITION(S) IN THE GROUP : Lead and Main Vocalist, Lead Dancer, Center, Face of the Group
+                            </p>
+                            <br>
+                            <p>
+                              AGE : 26 years, (BIRTHDATE : 22 sept, 1995)
+                            </p>
+                            </p>
+                          </div>
+                          <img src="Chaeyoung.png" class="members">
+                          <ol>6. Chaeyoung</ol>
+                          <div id="Chaeyoung_text">
+                            <br>
+                            <p>
+                              REAL NAME:  Son Chae-young
+                            </p>
+                            <br>
+                            <p>
+                             POSITION(S) IN THE GROUP : Main Rapper and Lead Vocalist
+                            </p>
+                            <br>
+                            <p>
+                              AGE : 22 years, (BIRTHDATE : 23 apr, 1999)
+                            </p>
+                            <br>
+                          </div>
+                          <img src="Sana.png" class="members">
+                          <ol>7. Sana </ol>
+                          <div id="Sana_text">
+                            <br>
+                            <p>
+                              REAL NAME:  Minatozaki Sana
+                            </p>
+                            <br>
+                            <p>
+                             POSITION(S) IN THE GROUP : Lead Vocalist
+                            </p>
+                            <br>
+                            <p>
+                              AGE : 25 years, (BIRTHDATE : 29 dec, 1996)
+                            </p>
+                            <br>
+                          </div>
+                          <img src="Tzuyu.png" class="members">
+                          <ol>8. Tzuyu</ol>
+                          <div id="Tzuyu_text">
+                            <br>
+                            <p>
+                              REAL NAME:  Chou Tzuyu
+                            </p>
+                            <br>
+                            <p>
+                             POSITION(S) IN THE GROUP : Lead Dancer, Lead Vocalist, Visual, Maknae
+                            </p>
+                            <br>
+                            <p>
+                              AGE : 22 years, (BIRTHDATE : 14 jun, 1999)
+                            </p>
+                          <img src="Dahyun.png" class="members">
+                          <ol>9. Dahyun</ol>
+                          <br>
+                            <p>
+                              Kim Da Hyun
+                            </p>
+                            <br>
+                            <p>
+                             POSITION(S) IN THE GROUP : Lead Rapper, Sub Vocalist
+                            </p>
+                            <br>
+                            <p>
+                              AGE : 23 years, (BIRTHDATE : May 28, 1998)
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  
+
+            </center>
+            <div class="copy_right_footer">
+                Developed by Ananya Rana
+            </div>
+          <script src="main.js"></script>
+        </body>
+</html>

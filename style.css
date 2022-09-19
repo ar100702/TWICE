@@ -1,0 +1,69 @@
+body{
+    background-size: cover;
+}
+
+.heading{
+    width: 100%;
+    text-align: left;
+    margin-top: 0;
+    font-size: 25px;
+}
+
+.heading h3{
+    display: inline;
+}
+
+.heading button{
+    float: right;
+    border: 1px solid white;
+}
+
+h4{
+    background-color: lightcyan;
+    line-height: 2;
+    margin: 0px;
+    font-size: 80px;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+}
+
+.modal-dialog{
+    width: 90%;
+}
+
+.members{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+ol{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+}
+
+.copy_right_footer{
+    position: sticky;
+    color: darkred;
+    bottom: 0;
+    width: 100%;
+    background-color:white;
+    line-height: 3;
+    text-align: center;
+    margin-top: 700px;
+}
+
+.big_image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#jihyo_text, #Jeongyeon_text, #Mina_text, #Momo_text, #Nayeon_text, #Chaeyoung_text, #Sana_text, #Tzuyu_text, #Dahyun_text{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Ramaraja', serif;
+}
